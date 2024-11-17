@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+:root{
+    --font-roboto:"Roboto", serif;
+    --font-dmsans:"DM Sans", serif;
+    --font-lato:"Lato", sans-serif;
+    --font-color:white;
+    --font-size-1: 0.88em;
+    --font-size-2:42px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: black;
+    backdrop-filter: blur(32px);
+}
+
+header .logo{
+    height: 120px;
+    margin-left: 1cm;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    color: var(--font-color);
+   
+}
+
+#menu{
+    display: none;
+    font-size: var(--font-size-2);
+}
+
+header .nav-navigation{
+    font-family: var(--font-lato);
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-right: 2cm;
+}
+
+
+
+header .navigation{
+    margin-left: 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-family: var(--font-dmsans);
+    text-decoration: none;
+    color: white;
+    font-size: var(--font-size-1);
+}
+
+.navigation:hover{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.hero-section{
+    background-image: url(./img/background_Hero_Section.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20cm;
+}
+
+
+.hero-child {
+    padding: 5.5cm 1cm;
+    font-family: var(--font-dmsans);
+    font-style: italic;
+    color: var(--font-color);
+}
+
+
+
+.hero-child p{
+    font-weight: 0;
+}
+
+.hero-child .text-indonesia{
+    font-size: 36px;
+}
+
+.hero-section img{
+    position: absolute;
+    height: 20cm;
+    width: 100%;
+}
+
+
+.tentang-section{
+    height: 17cm;
+}
+
+.tentang-section h1{
+    padding: 2cm 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-lato);
+}
+
+.tentang-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    color: white;
+    font-family: var(--font-lato);
+    padding-top: 2.5cm;
+}
+
+
+.pilar-section{
+    height: 400px;
+}
+
+.pilar-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-lato);
+    padding-bottom: 2cm;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    margin-left: 1cm;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .card:hover{
+    transform: translateY(-1.4cm);
+  }
+
+  .card p{
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font-lato);
+    padding: 1cm 20px 0 20px;
+    font-weight: 500;
+  }
+
+ #icon-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-2);
+  }
+
+  #darkToggle{
+    color: white;
+    margin-left: 20px;
+  }
+
+
+  .darkTheme{
+    background-color: black;
+  }
+
+
+@keyframes transisi {
+    0%{
+        transform: translateX(1cm);
+    }
+
+    100%{
+        transform: translateX(-2cm);
+    }
+}
+
+@media (max-width:600px) {
+    #menu{
+        display: block;
+    }
+
+    #darkToggle{
+        padding-left: 38px;
+        font-size: 30px;
+    }
+
+    #menu-toggle{
+        transition: all .2s ease-in-out;
+    }
+   .nav-navigation{
+        overflow: hidden;
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        top:14.3cm;
+        right: 4.3cm;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation{
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tentang-section P{
+        font-size: 12px;
+    }
+
+    .tentang-section h1{
+        font-size: 22px;
+    }
+
+    .tentang-child{
+        text-align: center;
+    }
+
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -0.50cm;
+    }
+    
+    .pilar-section h1{
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+}

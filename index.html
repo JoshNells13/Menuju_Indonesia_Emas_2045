@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuju Indonesia Emas</title>
+    <link rel="icon" type="image/x-icon" href="./icons/logo.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--ICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body id="header">
+    <header>
+        <nav >
+            <img src="./icons/logo.png" class="logo">
+            <div class="nav-navigation" id="menu-toggle">
+             <a class="navigation" href=#header>HOME</a>   
+             <a class="navigation" href=#tentang >TENTANG</a>   
+             <a class="navigation" href=#pilar>PILAR</a>   
+             <a class="navigation" href="#kontak">TUJUAN</a>
+             <a class="navigation" href="#kontak">KONTAK</a>
+             <i class='bx bxs-moon' id="darkToggle" ></i>
+            </div>
+            <i class='bx bx-menu' id="menu" onclick="toggle()"></i>   
+        </nav>
+    </header>
+
+    <div class="hero-section" >
+        <div  data-aos="fade-right" class="hero-child">
+            <h1>MENUJU</h1>
+            <h1 class="text-indonesia">INDONESIA EMAS</h1>
+            <h1>2045</h1>
+            <p>Indonesia Emas 2045 adalah visi besar untuk menjadikan Indonesia sebagai negara maju, adil,</p>
+            <p>dan sejahtera. Dengan fokus pada inovasi, pengembangan sumber daya manusia, dan </p>
+            <p>pembangunan berkelanjutan, kita berkomitmen mewujudkan kemajuan ekonomi dan sosial </p>
+            <p>Yang inklusif untuk masa depan yang lebih baik</p>
+        </div>
+    </div>
+
+    <div class="tentang-section" id="tentang">
+        <h1  data-aos="fade-up">Tentang Indonesia Emas 2045</h1>
+        <div   data-aos="fade-up" style="background-image: url(./img/tentang-section.jpg); background-position: center; background-size: cover; background-repeat: no-repeat; height: 350px; z-index: 1;">
+            <div class="tentang-child">
+                <p data-aos="fade-right">Indonesia Emas 2045 adalah visi besar untuk menjadikan Indonesia sebagai negara maju, sejahtera,</p>
+                <p data-aos="fade-right">berdaya saing, dan berkeadilan pada tahun 2045, tepat 100 tahun setelah kemerdekaan. Konsep ini</p>
+                <p data-aos="fade-right">penguatan infrastruktur, serta pelestarian nilai budaya dan lingkungan. Tujuannya adalah</p>
+                <p data-aos="fade-right">mewujudkan masyarakat adil dan makmur melalui inovasi, pendidikan, dan kolaborasi lintas sektor.</p>
+                <br>
+                <p data-aos="fade-left">Tujuan utama adalah menjadikan Indonesia salah satu dari lima kekuatan ekonomi terbesar di dunia,</p>
+                <p data-aos="fade-left">dengan pendapatan nasional tinggi, sumber daya manusia unggul, dan keberlanjutan lingkungan</p>
+                <p data-aos="fade-left">hidup. Konsep ini juga menekankan pentingnya pemerataan pembangunan, supremasi hukum, dan</p>
+                <p data-aos="fade-left">kontribusi Indonesia di panggung internasional</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pilar-section" id="pilar">
+        <h1  data-aos="fade-down">PILAR VISI INDONESIA EMAS 2045</h1>
+        <div  data-aos="fade-down" class="container-card">
+            <div class="card">
+                <p >Pembangunan Manusia serta Penguasaan Ilmu Pengetahuan dan Teknologi</p>
+                <i  class='bx bx-laptop' id="icon-card"></i>
+            </div>
+            <div class="card">
+                <p >Pembangunan Ekonomi Berkelanjutan</p>
+                <i class='bx bx-money'  id="icon-card"></i>
+            </div>
+            <div class="card">
+                <p >Pemerataan Pembangunan</p>
+                <i  class='bx bx-buildings'  id="icon-card"></i>
+            </div>
+            <div class="card">
+                <p >Pemantapan Ketahanan Nasional dan Tata Kelola Kepemerintahan</p>
+                <i   class='bx bxs-bank' id="icon-card" ></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--ICONS-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!--JAVASCRIPT-->
+    <script src="js.js"></script>
+</body>
+</html>
