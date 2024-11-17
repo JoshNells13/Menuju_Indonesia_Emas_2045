@@ -26,7 +26,6 @@ header{
     top: 0;
     z-index: 9999;
     background-color: black;
-    backdrop-filter: blur(32px);
 }
 
 header .logo{
@@ -100,7 +99,6 @@ header .navigation{
 }
 
 .hero-section img{
-    position: absolute;
     height: 20cm;
     width: 100%;
 }
@@ -123,7 +121,6 @@ header .navigation{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 3;
     color: white;
     font-family: var(--font-lato);
     padding-top: 2.5cm;
@@ -208,6 +205,12 @@ header .navigation{
         overflow-x: hidden;
     }
 
+    header{
+        z-index: 9999;
+        position: sticky;
+        top: 0;
+    }
+
     #menu{
         display: block;
     }
@@ -225,7 +228,7 @@ header .navigation{
         height: 100px;
         width: 100%;
         background-color: black;
-        top:14.3cm;
+        top:1.5cm;
         right: 4.3cm;
         position: relative;
         display: flex;
@@ -234,7 +237,6 @@ header .navigation{
 
     .navigation{
         padding-left: 20px;
-        padding-top: 20px;
         padding-bottom: 20px;
     }
 
