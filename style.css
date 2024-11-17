@@ -201,6 +201,13 @@ header .navigation{
 }
 
 @media (max-width:600px) {
+
+    html,
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     #menu{
         display: block;
     }
