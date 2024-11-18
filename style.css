@@ -48,8 +48,8 @@ header nav{
 }
 
 header .nav-navigation{
-    font-family: var(--font-lato);
-    font-weight: 500;
+    font-family: var(--font-dmsans);
+    font-weight: 600;
     margin-bottom: 10px;
     padding-right: 2cm;
 }
@@ -145,14 +145,11 @@ header .navigation{
     justify-content: center;
     align-items: center;
 }
-
 .card {
     width: 190px;
     height: 254px;
     border-radius: 30px;
     background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
-               -15px -15px 30px #ffffff;
     margin-left: 1cm;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -160,6 +157,8 @@ header .navigation{
 
   .card:hover{
     transform: translateY(-1.4cm);
+    border: 4px solid black;
+    background-color: #e0e0e0;
   }
 
   .card p{
@@ -167,8 +166,37 @@ header .navigation{
     font-size: 18px;
     font-family: var(--font-lato);
     padding: 1cm 20px 0 20px;
-    font-weight: 500;
   }
+.container-card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2cm;
+}
+.card2{
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    margin-left: 1cm;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .card2:hover{
+    transform: translateY(-1.4cm);
+    border: 4px solid black;
+    background-color: #e0e0e0;
+  }
+
+  .card2 p{
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font-lato);
+    padding: 1cm 20px 0 20px;
+  }
+
+
 
  #icon-card{
     display: flex;
@@ -189,10 +217,12 @@ header .navigation{
   }
 
   .Tujuan-section{
-    background-color: black;
+    background-color: white;
+    height: 500px;
   }
 
-  .Tujuan-section h1{
+  .Tujuan-section h2{
+    margin-bottom: 1cm;
     font-family: var(--font-lato);
     display: flex;
     justify-content: center;
@@ -241,7 +271,7 @@ header .navigation{
         height: 100px;
         width: 100%;
         background-color: black;
-        top:1.5cm;
+        top:2cm;
         right: 4.3cm;
         position: relative;
         display: flex;
@@ -283,6 +313,13 @@ header .navigation{
     }
 
     .card{
+        height: 220px;
         margin-bottom: 20px;
+    }
+
+
+    .Tujuan-section{
+        position: relative;
+        top: 18cm;
     }
 }
