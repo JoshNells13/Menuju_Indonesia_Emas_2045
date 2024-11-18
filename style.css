@@ -284,58 +284,53 @@ header .navigation{
     }
 
 
-    .tentang-section P{
+    .tentang-section p {
         font-size: 12px;
     }
 
-    .tentang-section h1{
-        font-size: 22px;
+    .tentang-section h1 {
+        font-size: 20px;
+        text-align: center; 
+        margin: 10px 0;
     }
 
-    .tentang-child{
+    .tentang-child {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-card,
+    .container-card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pilar-section h1 {
+        font-size: 18px;
+        text-align: center; 
+        margin: 20px 0;
+    }
+
+    .card,
+    .card2 {
+        height: 200px;  
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-left:-0.cm;
+    }
+
+
+
+    .Tujuan-section {
+        position: relative;
+        margin-top: 14cm; 
+        padding: 10px;
+    }
+
+    .Tujuan-section h2{
         text-align: center;
     }
-
-    .container-card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: -0.50cm;
-    }
-
-    .container-card2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: -0.50cm;
-    }
-    
-    .pilar-section h1{
-        font-size: 20px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    .card{
-        height: 220px;
-        margin-bottom: 20px;
-    }
-
-    .card2{
-        height: 220px;
-        margin-bottom: 20px;
-    }
-
-
-    .Tujuan-section{
-        position: relative;
-        top: 18cm;
-    }
 }
+
