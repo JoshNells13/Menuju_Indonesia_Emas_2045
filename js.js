@@ -12,7 +12,7 @@ function toggle(){
 }
 
 function toggledark(){
-    pilar.classList ="darkTheme"
+    pilar.classList.toggledark ="darkTheme"
 }
 
 
