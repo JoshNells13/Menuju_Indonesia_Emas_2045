@@ -304,6 +304,16 @@ header .navigation{
         position: relative;
         left: -0.50cm;
     }
+
+    .container-card2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -0.50cm;
+    }
     
     .pilar-section h1{
         font-size: 20px;
@@ -317,9 +327,14 @@ header .navigation{
         margin-bottom: 20px;
     }
 
+    .card2{
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
 
     .Tujuan-section{
         position: relative;
-        top: 18cm;
+        top: 15cm;
     }
 }
