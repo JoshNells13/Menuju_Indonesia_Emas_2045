@@ -16,7 +16,7 @@ function toggle(){
 pilar.classList = "pilar-section"
 
 function toggledark(){
-    if(pilar.classList = "pilar-section"){
+    if(pilar.classList == "pilar-section"){
          pilar.classList = "darkTheme"
     }else{
          pilar.classList = "pilar-section"
