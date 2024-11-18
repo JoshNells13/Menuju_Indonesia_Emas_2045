@@ -315,10 +315,11 @@ header .navigation{
 
     .card,
     .card2 {
-        height: 200px;  
+        height: 100px;
+        width: 100%;
+        border-radius: 0px;  
         margin-bottom: 20px;
         padding: 10px;
-        margin-left:-0.cm;
     }
 
 
