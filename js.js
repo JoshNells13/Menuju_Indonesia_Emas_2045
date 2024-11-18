@@ -11,8 +11,17 @@ function toggle(){
     }
 }
 
+
+
+pilar.classList = "pilar-section"
+
 function toggledark(){
-    pilar.classList.toggledark ="darkTheme"
+    if(pilar.classList = "pilar-section"){
+         pilar.classList = "darkTheme"
+    }else{
+         pilar.classList = "pilar-section"
+    }
+       
 }
 
 
