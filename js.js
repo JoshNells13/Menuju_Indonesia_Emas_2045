@@ -1,5 +1,5 @@
 let menu = document.getElementById("menu-toggle")
-let pilar = document.getElementById("pilar")
+
 
 
 menu.style.height = "0px"
@@ -13,14 +13,5 @@ function toggle(){
 
 
 
-pilar.classList = "pilar-section"
-function toggledark(){
-    if(pilar.classList == "pilar-section"){
-         pilar.classList = "darkTheme"
-    }else{
-         pilar.classList = "pilar-section"
-    }
-       
-}
 
 
