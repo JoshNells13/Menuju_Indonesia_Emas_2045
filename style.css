@@ -88,6 +88,10 @@ header .navigation{
     color: var(--font-color);
 }
 
+.hero-child span{
+    color: #DA0000;
+}
+
 
 
 .hero-child p{
@@ -115,6 +119,12 @@ header .navigation{
     justify-content: center;
     align-items: center;
     font-family: var(--font-lato);
+    letter-spacing: 2px;
+}
+
+.tentang-section span{
+    color: red;
+    margin: 0px 10px;
 }
 
 .tentang-child{
@@ -124,7 +134,7 @@ header .navigation{
     align-items: center;
     color: white;
     font-family: var(--font-lato);
-    padding-top: 2.5cm;
+    padding-top: 2cm;
 }
 
 
@@ -140,14 +150,22 @@ header .navigation{
     padding-bottom: 2cm;
 }
 
+.pilar-section span{
+    color: red;
+    margin: 0px 10px;
+}
+
+
+
+
 .container-card{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card {
-    width: 190px;
-    height: 254px;
+    width: 250px;
+    height: 300px;
     border-radius: 30px;
     background: #e0e0e0;
     margin-left: 1cm;
@@ -228,6 +246,11 @@ header .navigation{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .Tujuan-section span{
+    color: red;
+    margin: 0px 10px;
   }
 
 
