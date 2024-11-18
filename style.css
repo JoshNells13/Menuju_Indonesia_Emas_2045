@@ -320,6 +320,13 @@ header .navigation{
         border-radius: 0px;  
         margin-bottom: 20px;
         padding: 10px;
+        margin-left: -0.55cm;
+    }
+
+    .card p,
+    .card2 p{
+        position: relative;
+        top: -1cm;
     }
 
 
@@ -332,6 +339,11 @@ header .navigation{
 
     .Tujuan-section h2{
         text-align: center;
+    }
+
+    #icon-card{
+       position: relative;
+       top: -1cm;
     }
 }
 
