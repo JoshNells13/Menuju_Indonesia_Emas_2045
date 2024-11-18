@@ -153,6 +153,7 @@ header .navigation{
     margin-left: 1cm;
     cursor: pointer;
     transition: all .3s ease-in-out;
+    color: var(--font-color);
   }
 
   .card:hover{
