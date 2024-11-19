@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-   
+   text-decoration: none;
 }
 
 ::-webkit-scrollbar{
@@ -20,6 +20,9 @@
     --font-color:white;
     --font-size-1: 0.88em;
     --font-size-2:42px;
+    --font-size-3:8px;
+    --font-size-4:22px;
+    --bg-color:black;
 }
 
 header{
@@ -259,6 +262,83 @@ header .navigation{
   }
 
 
+
+.footer-section{
+    height: 350px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-size: var(--font-size-3);
+    font-family: var(--font-dmsans);
+}
+
+.footer-container{
+    padding-top: 4cm;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section .footer-kontak{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    cursor: pointer;
+}
+.footer-section .footer-sosial{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    cursor: pointer;
+}
+.footer-section .footer-sumber{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    cursor: pointer;
+}
+
+
+#icon-kn{
+    font-size: var(--font-size-4);
+    margin-bottom: 25px;
+    margin-left: 10px;
+    transition: all .2s ease-in-out;
+    
+}
+
+#icon-kn:hover{
+    font-size: 25px;
+}
+
+#icon-sm{
+    font-size: var(--font-size-4);
+    margin-bottom: 25px;
+    margin-left: 10px;
+    transition: all .2s ease-in-out;
+}
+#icon-sm:hover{
+    font-size: 25px;
+}
+
+.linksumber p{
+    margin-bottom: 25px;
+    font-size: var(--font-size-4);
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 @keyframes transisi {
     0%{
         transform: translateX(1cm);
@@ -388,5 +468,30 @@ header .navigation{
     #icon-card{
        position: relative;
        top: -1cm;
+    }
+
+
+    .linksm,
+    .linkkontak,
+    .linksumber{
+        display: flex;
+    }
+
+    #icon-sm,
+    #icon-kn{
+        font-size: 20px;
+    }
+
+    .linksumber p{
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+  
+
+    .footer-container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 }
