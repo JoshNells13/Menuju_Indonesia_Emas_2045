@@ -266,6 +266,8 @@ header .navigation{
     }
 }
 
+
+
 @media (max-width:600px) {
 
     html,
@@ -361,7 +363,7 @@ header .navigation{
 
     .Tujuan-section {
         position: relative;
-        margin-top: 5cm; 
+        margin-top: 3cm; 
         padding: 10px;
     }
 
