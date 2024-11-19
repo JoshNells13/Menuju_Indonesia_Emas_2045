@@ -213,6 +213,7 @@ header .navigation{
     font-size: 18px;
     font-family: var(--font-lato);
     padding: 1cm 20px 0 20px;
+    color: white;
   }
 
 
@@ -222,6 +223,7 @@ header .navigation{
     justify-content: center;
     align-items: center;
     font-size: var(--font-size-2);
+    color: var(--font-color);
   }
 
   #darkToggle{
@@ -240,7 +242,7 @@ header .navigation{
     height: 500px;
   }
 
-  .Tujuan-section h2{
+  .Tujuan-section h1{
     margin-bottom: 1cm;
     font-family: var(--font-lato);
     display: flex;
@@ -313,7 +315,7 @@ header .navigation{
     }
 
     .tentang-section h1 {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center; 
         margin: 10px 0;
     }
@@ -325,6 +327,8 @@ header .navigation{
 
     .container-card,
     .container-card2 {
+        position: relative;
+        right: -0.25cm;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -361,8 +365,9 @@ header .navigation{
         padding: 10px;
     }
 
-    .Tujuan-section h2{
+    .Tujuan-section h1{
         text-align: center;
+        font-size: 16px;
     }
 
     #icon-card{
