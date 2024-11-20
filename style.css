@@ -153,6 +153,7 @@ header .navigation{
 
 
 
+
 .pilar-section{
     height: 500px;
 }
@@ -340,17 +341,6 @@ header .navigation{
     font-family: var(--font-dmsans);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:600px) {
 
     html,
@@ -398,20 +388,23 @@ header .navigation{
     }
 
 
-    .tentang-section p {
-        font-size: 14px;
-    }
+
+
 
     .tentang-section h1 {
         font-size: 16px;
         text-align: center; 
         margin: 10px 0;
     }
+    .tentang-section p {
+      font-size: 1px;
+    }
 
     .tentang-child {
         text-align: center;
         margin-bottom: 20px;
     }
+
 
     .container-card,
     .container-card2 {
@@ -526,6 +519,6 @@ header .navigation{
     }
 
     .tentang-section p{
-        font-size: 18px;
+        font-size: 14px;
     }
 }
