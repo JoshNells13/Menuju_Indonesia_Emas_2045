@@ -118,6 +118,11 @@ header .navigation{
     margin-bottom: 8cm;
 }
 
+.tentang-section p{
+    font-family: var(--font-dmsans);
+    font-size: 22px;
+}
+
 .tentang-section h1{
     padding: 2cm 0;
     display: flex;
@@ -145,6 +150,7 @@ header .navigation{
 .tentang-child-deskripsi{
     text-align: center ;
 }
+
 
 
 .pilar-section{
@@ -372,6 +378,8 @@ header .navigation{
         transition: all .2s ease-in-out;
     }
    .nav-navigation{
+        
+      
         overflow: hidden;
         height: 100px;
         width: 100%;
@@ -381,6 +389,7 @@ header .navigation{
         position: relative;
         display: flex;
         flex-direction: column;
+       
     }
 
     .navigation{
@@ -431,9 +440,9 @@ header .navigation{
         margin-left: -0.55cm;
     }
 
-    .card{
+     .card{
         height: 100px;
-        width: 200%;
+        width: 100%;
         border-radius: 0px;  
         margin-bottom: 20px;
         padding: 10px;
