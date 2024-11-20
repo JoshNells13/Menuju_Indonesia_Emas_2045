@@ -12,6 +12,12 @@
     width: 0;
 }
 
+html,
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 
 :root{
     --font-roboto:"Roboto", serif;
