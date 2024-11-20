@@ -1,7 +1,4 @@
 let menu = document.getElementById("menu-toggle")
-
-
-
 menu.style.height = "0px"
 function toggle(){
     if(menu.style.height == "0px"){

@@ -22,6 +22,7 @@
     --font-size-2:42px;
     --font-size-3:8px;
     --font-size-4:22px;
+    --font-size-5:15px;
     --bg-color:black;
 }
 
@@ -272,7 +273,7 @@ header .navigation{
 }
 
 .footer-container{
-    padding-top: 4cm;
+    padding-top: 1cm;
     display: flex;
     justify-content: space-around;
 }
@@ -326,10 +327,11 @@ header .navigation{
 }
 
 .linksumber p{
-    margin-bottom: 25px;
-    font-size: var(--font-size-4);
+    margin-bottom: 15px;
+    font-size: var(--font-size-5);
     color: var(--font-color);
     text-decoration: none;
+    font-family: var(--font-dmsans);
 }
 
 
@@ -339,15 +341,7 @@ header .navigation{
 
 
 
-@keyframes transisi {
-    0%{
-        transform: translateX(1cm);
-    }
 
-    100%{
-        transform: translateX(-2cm);
-    }
-}
 
 
 
@@ -428,10 +422,18 @@ header .navigation{
         flex-direction: column;
     }
 
-    .card,
     .card2 {
         height: 100px;
         width: 100%;
+        border-radius: 0px;  
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-left: -0.55cm;
+    }
+
+    .card{
+        height: 100px;
+        width: 200%;
         border-radius: 0px;  
         margin-bottom: 20px;
         padding: 10px;
@@ -444,16 +446,9 @@ header .navigation{
         top: -1cm;
     }
 
-    .card,
-    .card2{
-        transform: scale(0.9, 0.9);
-    }
-
-
-
     .Tujuan-section {
         position: relative;
-        margin-top: 10cm; 
+        margin-top: 27cm; 
         padding: 10px;
     }
 
@@ -461,7 +456,7 @@ header .navigation{
         display: flex;
         flex-direction: column;
         text-align: center;
-        font-size: 16px;
+        font-size: 12px;
         margin: 10px 0;
     }
 
@@ -475,16 +470,26 @@ header .navigation{
     .linkkontak,
     .linksumber{
         display: flex;
+        text-align: center;
     }
 
     #icon-sm,
     #icon-kn{
-        font-size: 20px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linksumber{
+        position: relative;
+        left: -0.33cm;
     }
 
     .linksumber p{
-        font-size: 15px;
+        text-align: center;
+        font-size: 10px;
         text-decoration: none;
+        margin-left: 20px;
     }
 
   
@@ -494,4 +499,22 @@ header .navigation{
         display: flex;
         flex-direction: column;
     }
+}
+@media (max-width:1200px){
+    html,
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .card{
+        width: 170px;
+        height: 254px;
+    }
+
+    .tentang-section h1{
+        text-align: center;
+    }
+
+    .tentang-section p{}
 }
