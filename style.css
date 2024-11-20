@@ -82,7 +82,7 @@ header .navigation{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20cm;
+    height: 21cm;
 }
 
 
@@ -525,5 +525,7 @@ header .navigation{
         text-align: center;
     }
 
-    .tentang-section p{}
+    .tentang-section p{
+        font-size: 18px;
+    }
 }
