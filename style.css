@@ -523,4 +523,9 @@ header .navigation{
     .tentang-section p{
         font-size: 14px;
     }
+
+
+    .Tujuan-section h1{
+        align-items: center;
+    }
 }
